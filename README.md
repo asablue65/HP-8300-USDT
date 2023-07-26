@@ -24,6 +24,7 @@ Opencore EFIs for HP8300USDT
 * Handoff: YES
 * HD Audio: YES
 * Computer Speaker: YES
+* Audio in fo MIC: NO
 * USB: All YES
 * mSATA: YES
 * SD Reader: YES
