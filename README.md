@@ -10,7 +10,7 @@ Opencore EFIs for HP8300USDT
 * BIOS: [00.03.08 Rev.A]
 * GPU: HD 4000/AMD FirePro W5170M 2G
 * RAM: Samsung 8G * 2
-* NVMe: Micron SATA SSD 256GB
+* STORAGE: Micron SATA SSD 256GB
 * Wifi/Bluetooth: BCM94360HMB
 
 # Status
