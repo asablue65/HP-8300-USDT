@@ -18,12 +18,8 @@ Opencore EFIs for HP8300USDT
 * Opencore：0.8.5 offcial
 * MacOS: Monterey 12.6.5
 * Sleep: YES
-* GPU: 
-	* AMD FirePro W5170M (Radeon R9 M375X)
-    		* DisplayPort (Bottom): YES
-    		* VGAPort: NO
-	* HD 4000
-    		* DisplayPort (Top): NO
+* GPU: AMD FirePro W5170M (Radeon R9 M375X), DisplayPort (Bottom): YES, VGAPort: NO
+* GPU: intel HD 4000, DisplayPort (Top): NO
 * Wifi/Bluetooth: YES
 * Handoff: YES
 * HD Audio: YES
