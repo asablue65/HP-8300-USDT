@@ -17,7 +17,7 @@ Opencore EFIs for HP8300USDT
 ![System Info](https://github.com/asablue65/HP-8300-USDT/blob/main/doc/About_This_mac.png)
 * Opencore：0.8.5 offcial
 * MacOS: Monterey 12.6.5
-* Sleep: YES
+* Sleep & Wake: YES
 * GPU: AMD FirePro W5170M (Radeon R9 M375X), DisplayPort (Bottom): YES, VGAPort: NO
 * GPU: intel HD 4000, DisplayPort (Top): NO
 * Wifi/Bluetooth: YES
