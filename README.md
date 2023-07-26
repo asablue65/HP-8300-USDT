@@ -9,12 +9,12 @@ Opencore EFIs for HP8300USDT
 * Motherboard: Q77
 * BIOS: [00.03.08 Rev.A]
 * GPU: HD 4000/AMD FirePro W5170M 2G
-* Mem: Samsung 8G * 2
+* RAM: Samsung 8G * 2
 * NVMe: Micron SATA SSD 256GB
 * Wifi/Bluetooth: BCM94360HMB
 
 # Status
-![System Info](https://github.com/asablue65/HP-8300-USDT/tree/main/doc/About_This_mac.png)
+![System Info](https://github.com/asablue65/HP-8300-USDT/blob/tree/main/doc/About_This_mac.png)
 * Opencore：0.8.5 offcial
 * MacOS: Monterey 12.6.5
 * Sleep: YES
