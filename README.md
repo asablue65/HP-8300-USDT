@@ -45,4 +45,6 @@ Opencore EFIs for HP8300USDT
 ### For OS Ventura Installation
 1. Add "amfi_get_out_of_my_way=0x1" to boot-args
 2. Download Opencore Legacy Patcher and apply Post-Install Root Patch
+   
+![System Info](https://github.com/asablue65/HP-8300-USDT/blob/main/doc/Ventura.png)
 
