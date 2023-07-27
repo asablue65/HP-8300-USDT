@@ -42,3 +42,7 @@ Opencore EFIs for HP8300USDT
 3. Must have boot-args: radpg=15 -lilubetaall
 3. Reboot
 
+### For OS Ventura Installation
+1. Add "amfi_get_out_of_my_way=0x1" to boot-args
+2. Download Opencore Legacy Patcher and apply Post-Install Root Patch
+
