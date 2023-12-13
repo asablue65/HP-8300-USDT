@@ -31,7 +31,7 @@ Opencore EFIs for HP8300USDT
 * DVDROM: YES
 
 # Other Settings
-1. Secured Mode: Disabled
+1. SecureBoot Mode: Disabled
 2. BIOS: The Latest
 3. CFG_Lock: Disabled
 4. UEFI Only
