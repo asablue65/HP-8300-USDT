@@ -48,7 +48,7 @@ Extra 1: For OS Ventura Installation (Opencore 0.9.0)
 2. Download Opencore Legacy Patcher and apply Post-Install Root Patch
 
 Extra 2: For OS Sonoma Installation
-1. Updating kexts and bootloader to the latest versions (Opencore 0.9.4)
+1. Updating kexts and bootloader to the latest versions (Opencore 0.9.6)
 2. Edit the config.plist and set SecureBootModel to "Disabled" (in Misc/Security section)
 3. In Kernel section, block com.apple.iokit.IOSkywalkFamily (and set MinKernel to 23.0.0)
 4. Add the kexts and a dependency in the OC's appropriate folder and declare them in the config.plist (and set MinKernel to 23.0.0)
@@ -58,6 +58,7 @@ Extra 2: For OS Sonoma Installation
 5. Use a soft unlock for SIP: set csr-active-config to "03080000" in NVRAM
 6. Add "amfi=0x80" to boot-args
 6.1 or Replace "amfi=0x80" with "-amfipassbeta" and add AMFIPass.kext to Kexts
+7. Download Opencore Legacy Patcher and apply Post-Install Root Patch
 
 * After OCLP is installed is possible to set SecureBootModel as you like and enable SIP
 
