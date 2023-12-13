@@ -62,4 +62,5 @@ Extra 2: For OS Sonoma Installation
 * After OCLP is installed is possible to set SecureBootModel as you like and enable SIP
 
 ![System Info](https://github.com/asablue65/HP-8300-USDT/blob/main/doc/Ventura.png)
+(https://github.com/asablue65/HP-8300-USDT/blob/main/doc/Sonoma.png)
 
