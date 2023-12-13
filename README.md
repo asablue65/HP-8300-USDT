@@ -43,8 +43,8 @@ Opencore EFIs for HP8300USDT
 3. Reboot
 
 Extra 1: For OS Ventura Installation (Opencore 0.9.0)
-1. Add "amfi_get_out_of_my_way=0x1" or "amfi=0x80" to boot-args
-1.1 or Replace "amfi=0x80" with "-amfipassbeta" and add AMFIPass.kext to Kexts
+1. Add "amfi_get_out_of_my_way=0x1" or "amfi=0x80" to boot-args,
+ or Replace "amfi=0x80" with "-amfipassbeta" and add AMFIPass.kext to Kexts
 2. Download Opencore Legacy Patcher and apply Post-Install Root Patch
 
 Extra 2: For OS Sonoma Installation
@@ -57,7 +57,7 @@ Extra 2: For OS Sonoma Installation
 	IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext
 5. Use a soft unlock for SIP: set csr-active-config to "03080000" in NVRAM
 6. Add "amfi=0x80" to boot-args
-6.1 or Replace "amfi=0x80" with "-amfipassbeta" and add AMFIPass.kext to Kexts
+ or Replace "amfi=0x80" with "-amfipassbeta" and add AMFIPass.kext to Kexts,
 7. Download Opencore Legacy Patcher and apply Post-Install Root Patch
 
 * After OCLP is installed is possible to set SecureBootModel as you like and enable SIP (set csr-active-config to "00080000")
