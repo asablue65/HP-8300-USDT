@@ -60,7 +60,7 @@ Extra 2: For OS Sonoma Installation
 6.1 or Replace "amfi=0x80" with "-amfipassbeta" and add AMFIPass.kext to Kexts
 7. Download Opencore Legacy Patcher and apply Post-Install Root Patch
 
-* After OCLP is installed is possible to set SecureBootModel as you like and enable SIP
+* After OCLP is installed is possible to set SecureBootModel as you like and enable SIP (set csr-active-config to "00080000")
 
 ![System Info](https://github.com/asablue65/HP-8300-USDT/blob/main/doc/Ventura.png)
 ![System Info](https://github.com/asablue65/HP-8300-USDT/blob/main/doc/Sonoma.png)
