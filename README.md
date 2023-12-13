@@ -24,7 +24,7 @@ Opencore EFIs for HP8300USDT
 * Handoff: YES
 * HD Audio: YES
 * Computer Speaker: YES
-* Audio in fo MIC: NO
+* Audio in for MIC: NO
 * USB: All YES
 * mSATA: YES
 * SD Reader: YES
@@ -42,9 +42,24 @@ Opencore EFIs for HP8300USDT
 3. Must have boot-args: radpg=15 -lilubetaall
 3. Reboot
 
-### For OS Ventura Installation
-1. Add "amfi_get_out_of_my_way=0x1" to boot-args
+Extra 1: For OS Ventura Installation (Opencore 0.9.0)
+1. Add "amfi_get_out_of_my_way=0x1" or "amfi=0x80" to boot-args
+1.1 or Replace "amfi=0x80" with "-amfipassbeta" and add AMFIPass.kext to Kexts
 2. Download Opencore Legacy Patcher and apply Post-Install Root Patch
-   
+
+Extra 2: For OS Sonoma Installation
+1. Updating kexts and bootloader to the latest versions (Opencore 0.9.4)
+2. Edit the config.plist and set SecureBootModel to "Disabled" (in Misc/Security section)
+3. In Kernel section, block com.apple.iokit.IOSkywalkFamily (and set MinKernel to 23.0.0)
+4. Add the kexts and a dependency in the OC's appropriate folder and declare them in the config.plist (and set MinKernel to 23.0.0)
+	IOSkywalkFamily.kext
+	IO80211FamilyLegacy.kext
+	IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext
+5. Use a soft unlock for SIP: set csr-active-config to "03080000" in NVRAM
+6. Add "amfi=0x80" to boot-args
+6.1 or Replace "amfi=0x80" with "-amfipassbeta" and add AMFIPass.kext to Kexts
+
+* After OCLP is installed is possible to set SecureBootModel as you like and enable SIP
+
 ![System Info](https://github.com/asablue65/HP-8300-USDT/blob/main/doc/Ventura.png)
 
